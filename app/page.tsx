@@ -1,4 +1,5 @@
 import MyProfilePic from "./components/MyProfilePic";
+import Posts from "./components/Posts";
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
           I am <span className="font-bold">Siddiq</span>
         </span>
       </p>
+      <Posts />
     </main>
   )
 }
